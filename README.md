@@ -52,6 +52,7 @@ Various definitions:
 * https://www.ibm.com/cloud/learn/devsecops 
 * https://snyk.io/series/devsecops/ 
 * https://www.synopsys.com/glossary/what-is-devsecops.html
+* https://spacelift.io/blog/what-is-devsecops
 
 # Tooling
 
@@ -105,6 +106,7 @@ Dependency security testing and analysis is very important part of discovering s
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
 | **CycloneDX** | [https://github.com/orgs/CycloneDX/repositories](https://github.com/orgs/CycloneDX/repositories) | CycloneDX format for **SBOM** |![CycloneDX](https://img.shields.io/github/stars/CycloneDX/cyclonedx-cli?style=for-the-badge) | 
+| **cdxgen** | [https://github.com/AppThreat/cdxgen](https://github.com/AppThreat/cdxgen) | Generates CycloneDX **SBOM**, supports many languages and package managers. |![CycloneDX](https://img.shields.io/github/stars/AppThreat/cdxgen?style=for-the-badge) | 
 | **SPDX** | [https://github.com/spdx/spdx-spec](https://github.com/spdx/spdx-spec) | SPDX format for **SBOM** - Software Package Data Exchange |![SpDX](https://img.shields.io/github/stars/spdx/spdx-spec?style=for-the-badge) | 
 | **Snyk** | [https://github.com/snyk/snyk](https://github.com/snyk/snyk) | Snyk scans and monitors your projects for security vulnerabilities |![Snyk](https://img.shields.io/github/stars/snyk/snyk?style=for-the-badge) | 
 | **vulncost** | [https://github.com/snyk/vulncost](https://github.com/snyk/vulncost) | Security Scanner for VS Code |![Vulncost](https://img.shields.io/github/stars/snyk/vulncost?style=for-the-badge) |
@@ -280,6 +282,7 @@ Reading and manifestos: https://principlesofchaos.org/
 | :---------- | :---------- | :---------- | :----------: |
 | **chaos-mesh** | [https://github.com/chaos-mesh/chaos-mesh](https://github.com/chaos-mesh/chaos-mesh) | It is a cloud-native Chaos Engineering platform that orchestrates chaos on Kubernetes environments |![Chaos mesh](https://img.shields.io/github/stars/chaos-mesh/chaos-mesh?style=for-the-badge) |
 | **Chaos monkey** | [https://netflix.github.io/chaosmonkey/](https://netflix.github.io/chaosmonkey/) | Chaos Monkey is responsible for randomly terminating instances in production to ensure that engineers implement their services to be resilient to instance failures. |![Chaos monkey](https://img.shields.io/github/stars/Netflix/chaosmonkey?style=for-the-badge) |
+| **Chaos Engine** | [https://thalesgroup.github.io/chaos-engine/](https://thalesgroup.github.io/chaos-engine/) | The Chaos Engine is a tool that is designed to intermittently destroy or degrade application resources running in cloud based infrastructure. These events are designed to occur while the appropriate resources are available to resolve the issue if the platform fails to do so on it's own. |![Chaos Engine](https://img.shields.io/github/stars/thalesgroup/chaos-engine?style=for-the-badge) |
 | **chaoskube** | [https://github.com/linki/chaoskube ](https://github.com/linki/chaoskube ) | Test how your system behaves under arbitrary pod failures. |![chaoskube](https://img.shields.io/github/stars/linki/chaoskube?style=for-the-badge) |
 | **Kube-Invaders** | [https://github.com/lucky-sideburn/KubeInvaders](https://github.com/lucky-sideburn/KubeInvaders) | Gamified chaos engineering tool for Kubernetes |![chaoskube](https://img.shields.io/github/stars/lucky-sideburn/KubeInvaders?style=for-the-badge) |
 | **kube-monkey** | [https://github.com/asobti/kube-monkey](https://github.com/asobti/kube-monkey) | Gamified chaos engineering tool for Kubernetes |![kube-monkey](https://img.shields.io/github/stars/asobti/kube-monkey?style=for-the-badge) |
@@ -355,6 +358,7 @@ Here are the other links and resources that do not fit in any previous category.
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
+| **Automated Security Helper (ASH)** | [https://github.com/aws-samples/automated-security-helper](https://github.com/aws-samples/automated-security-helper) | ASH is a one stop shop for security scanners, and does not require any installation. It will identify the different frameworks, and download the relevant, up to date tools. ASH is running on isolated Docker containers, keeping the user environment clean, with a single aggregated report. The following frameworks are supported: Git, Python, Javascript, Cloudformation, Terraform and Jupyter Notebooks.  |![ASH](https://img.shields.io/github/stars/aws-samples/automated-security-helper?style=for-the-badge) | 
 | **Mobile security framework** | [https://github.com/MobSF/Mobile-Security-Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | SAST, DAST and pentesting tool for mobile apps |![MobSF](https://img.shields.io/github/stars/MobSF/Mobile-Security-Framework-MobSF?style=for-the-badge) |
 
 Training - https://www.practical-devsecops.com/devsecops-university/ 
